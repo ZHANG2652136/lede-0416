@@ -995,8 +995,8 @@ define Device/jdcloud_re-sp-01b
   IMAGE_SIZE := 27328k
   DEVICE_VENDOR := JDCloud
   DEVICE_MODEL := RE-SP-01B
-  DEVICE_PACKAGES := kmod-fs-ext4 kmod-mt7603 \
-	kmod-mt7615-firmware kmod-sdhci-mt7620 kmod-usb3
+  DEVICE_PACKAGES := kmod-fs-ext4 \
+	kmod-sdhci-mt7620 kmod-usb3
 endef
 TARGET_DEVICES += jdcloud_re-sp-01b
 
